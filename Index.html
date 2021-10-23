@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: beige;">
+    
+<model-viewer src="AC Cobra 1.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="53.4deg 84.22deg auto">
+    <button class="Hotspot" slot="hotspot-1" data-position="1.9927837796670929m 0.8557843849744021m 0.1435260673022719m" data-normal="0.26720003867978037m 0.9531874426233382m 0.1415550725149201m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Uno</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.05726886567237788m 0.8689468753592057m -0.40277838951811606m" data-normal="-0.9688306309172191m 0.24772405736180278m 8.656307194661278e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Dos</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-2.403733968734741m 0.6039827758350363m 0.026071503114511337m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Tres</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+
+
+
+    <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
