@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height: 500px; width: 500px; background-color: beige;">
+    
+    <model-viewer src="./AC Cobra 1.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="music_hall_01_1k.hdr" poster="poster.webp" shadow-intensity="3.7" exposure="1.05" shadow-softness="1" camera-orbit="46.79deg 82.63deg auto">
+    <button class="Hotspot" slot="hotspot-1" data-position="2.1453586140153877m 0.8135528765889004m -0.09388702987232991m" data-normal="0.3331962024392349m 0.9371767194687008m -0.10334450718812659m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cofre</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.0698906644026458m 0.8961325723630362m -0.46048371407861755m" data-normal="-0.836922263026038m 0.455295710109831m -0.30375473989217033m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Volante</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-2.1136086423954765m 0.9535771657042518m 0.1268691537133927m" data-normal="-0.34348822529431833m 0.9380822753639708m 0.0449164082726465m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cofre</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+
+
+
+    <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
